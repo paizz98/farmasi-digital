@@ -1505,10 +1505,28 @@ footer {
 @media (max-width: 768px) {
     .hero-grid {
         grid-template-columns: 1fr;
+        gap: 32px;
+        text-align: center;
     }
 
     .hero-visual {
-        display: none;
+        display: flex;
+    }
+
+    .hero-image-wrapper {
+        max-width: 380px;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-stats {
+        justify-content: center;
+    }
+
+    .hero-badges-row {
+        flex-direction: column;
     }
 
     .services-grid {
